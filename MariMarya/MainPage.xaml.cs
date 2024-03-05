@@ -6,5 +6,18 @@ public partial class MainPage : ContentPage
 	{
 		InitializeComponent();
 	}
+
+	void Button_Clicked(object sender,EventArgs args)
+	{ 
+		
+	}
+	void Button_Clicked_1(object sender,EventArgs args)
+	{
+
+	}
+	void Button_Clicked_2(object sender,EventArgs args)
+	{
+
+	}
 }
 

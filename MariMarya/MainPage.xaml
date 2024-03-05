@@ -3,8 +3,60 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MariMarya.MainPage">
 
+<Grid>
 <Image Source="zombies.jpg"
        Opacity="5"
        Aspect="AspectFill"/>
 
+<VerticalStackLayout
+       VerticalOptions="End"
+       Spacing="15"
+       Margin="10,0,15,40">
+       
+ <Label Text="Survive the Apocalypse"
+        TextColor="#8c0f17"
+        Margin="15"
+        FontSize="38"
+        FontFamily="Fiendish"
+        HorizontalOptions="Center"
+        HorizontalTextAlignment="Center"
+        VerticalOptions="Center"/>
+
+<Button Text="Iniciar"
+        Clicked="Button_Clicked"
+        BorderColor="#5a9666"
+        BorderWidth="1"
+        HeightRequest="50"
+        CornerRadius="25"
+        BackgroundColor="#125727"
+        TextColor="Black"
+        Margin="0,0,0,10"
+        FontSize="15"
+        FontAttributes="Bold"/>
+
+<Button Text="Créditos"
+        Clicked="Button_Clicked_1"
+        BorderColor="Black"
+        BorderWidth="1"
+        HeightRequest="50"
+        CornerRadius="25"
+        BackgroundColor="#5a9666" 
+        TextColor="Black"
+        FontSize="15" 
+        FontAttributes="Bold"/> 
+
+<Button Text="Sobre"
+        Clicked="Button_Clicked_2"
+        BorderColor="Black"
+        BorderWidth="1"
+        HeightRequest="50"
+        CornerRadius="25"
+        BackgroundColor="#5a9666" 
+        TextColor="Black"
+        FontSize="15" 
+        FontAttributes="Bold"/> 
+
+              
+     </VerticalStackLayout>
+     </Grid>
 </ContentPage>
