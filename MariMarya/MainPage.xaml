@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MariMarya.MainPage">
+             x:Class="MariMarya.MainPage"
+             Shell.NavBarIsVisible="False">
 
 <Grid>
 <Image Source="zombies.jpg"
@@ -10,8 +11,8 @@
 
 <VerticalStackLayout
        VerticalOptions="End"
-       Spacing="15"
-       Margin="10,0,15,40">
+       Spacing="10"
+       Margin="10,10,10,40">
        
  <Label Text="Survive the Apocalypse"
         TextColor="#8c0f17"
@@ -20,7 +21,7 @@
         FontFamily="Fiendish"
         HorizontalOptions="Center"
         HorizontalTextAlignment="Center"
-        VerticalOptions="Center"/>
+        VerticalOptions="Start"/>
 
 <Button Text="Iniciar"
         Clicked="Button_Clicked"
@@ -34,7 +35,7 @@
         FontSize="15"
         FontAttributes="Bold"/>
 
-<Button Text="Créditos"
+<Button Text="Sobre"
         Clicked="Button_Clicked_1"
         BorderColor="Black"
         BorderWidth="1"
@@ -45,18 +46,8 @@
         FontSize="15" 
         FontAttributes="Bold"/> 
 
-<Button Text="Sobre"
-        Clicked="Button_Clicked_2"
-        BorderColor="Black"
-        BorderWidth="1"
-        HeightRequest="50"
-        CornerRadius="25"
-        BackgroundColor="#5a9666" 
-        TextColor="Black"
-        FontSize="15" 
-        FontAttributes="Bold"/> 
 
-              
+
      </VerticalStackLayout>
      </Grid>
 </ContentPage>
