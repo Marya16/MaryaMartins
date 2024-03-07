@@ -4,7 +4,6 @@
              x:Class="MariMarya.MariMaryaPage"
              Shell.NavBarIsVisible="False">
 
-<Label Text="Marya"
-       TextColor="Blue"/>
-      
+
+
    </ContentPage>        

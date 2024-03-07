@@ -4,50 +4,54 @@
              x:Class="MariMarya.MainPage"
              Shell.NavBarIsVisible="False">
 
-<Grid>
-<Image Source="zombies.jpg"
-       Opacity="5"
-       Aspect="AspectFill"/>
+        <Grid>
+                <Image Source="zumbiss.jpg"
+                Opacity="1"
+                Aspect="AspectFill"/>
 
-<VerticalStackLayout
-       VerticalOptions="End"
-       Spacing="10"
-       Margin="10,10,10,40">
-       
- <Label Text="Survive the Apocalypse"
-        TextColor="#8c0f17"
-        Margin="15"
-        FontSize="38"
-        FontFamily="Fiendish"
-        HorizontalOptions="Center"
-        HorizontalTextAlignment="Center"
-        VerticalOptions="Start"/>
+                <VerticalStackLayout
+                                VerticalOptions="End"
+                                Spacing="10"
+                                Margin="10,10,10,40">
+                
+                        <Button Text="Iniciar"
+                                Clicked="Button_Clicked"
+                                FontFamily="Fiendish"
+                                BorderColor="Black"
+                                BorderWidth="1"
+                                HeightRequest="50"
+                                CornerRadius="25"
+                                BackgroundColor="#990000"
+                                TextColor="#e6e6e6"
+                                Margin="0,0,0,10"
+                                FontSize="13"
+                                FontAttributes="Bold"/>
 
-<Button Text="Iniciar"
-        Clicked="Button_Clicked"
-        BorderColor="#5a9666"
-        BorderWidth="1"
-        HeightRequest="50"
-        CornerRadius="25"
-        BackgroundColor="#125727"
-        TextColor="Black"
-        Margin="0,0,0,10"
-        FontSize="15"
-        FontAttributes="Bold"/>
+                        <Button Text="Sobre"
+                                Clicked="Button_Clicked_1"
+                                FontFamily="Fiendish"
+                                BorderColor="Black"
+                                BorderWidth="1"
+                                HeightRequest="50"
+                                CornerRadius="25"
+                                BackgroundColor="#990000" 
+                                TextColor="#e6e6e6"
+                                FontSize="13" 
+                                FontAttributes="Bold"/> 
 
-<Button Text="Sobre"
-        Clicked="Button_Clicked_1"
-        BorderColor="Black"
-        BorderWidth="1"
-        HeightRequest="50"
-        CornerRadius="25"
-        BackgroundColor="#5a9666" 
-        TextColor="Black"
-        FontSize="15" 
-        FontAttributes="Bold"/> 
+                </VerticalStackLayout>
+                
+                <Frame x:Name="sobre"  
+                        IsVisible="False"
+                        BackgroundColor="#b30000"
+                        Margin="20,20,20,25">   
+
+                        <Button Text="voltar"
+                                Clicked="Button_Clicked_2"
+                                HeightRequest="45"
+ 
 
 
-
-     </VerticalStackLayout>
-     </Grid>
+                </Frame>
+        </Grid>
 </ContentPage>
