@@ -5,7 +5,7 @@
              Shell.NavBarIsVisible="False">
 
         <Grid>
-                <Image Source="zumbiss.jpg"
+               <Image Source="zombies.jpg"
                 Opacity="1"
                 Aspect="AspectFill"/>
 
@@ -27,7 +27,7 @@
                                 FontSize="13"
                                 FontAttributes="Bold"/>
 
-                        <Button Text="Sobre"
+                        <Button Text="sobre"
                                 Clicked="Button_Clicked_1"
                                 FontFamily="Fiendish"
                                 BorderColor="Black"
@@ -40,18 +40,13 @@
                                 FontAttributes="Bold"/> 
 
                 </VerticalStackLayout>
-                
-                <Frame x:Name="sobre"  
+                <Frame x:Name="Iniciar"  
                         IsVisible="False"
-                        BackgroundColor="#b30000"
-                        Margin="20,20,20,25">   
+                        Margin="10,20"
+                        CornerRadius="20"
+                        BackgroundColor="Black" 
+                        HorizontalOptions="Fill"
+                        VerticalOptions="Fill"/>
+         </Grid>
 
-                        <Button Text="voltar"
-                                Clicked="Button_Clicked_2"
-                                HeightRequest="45"
- 
-
-
-                </Frame>
-        </Grid>
 </ContentPage>

@@ -13,7 +13,7 @@ public partial class MainPage : ContentPage
 	}
 	void Button_Clicked_1(object sender,EventArgs args)
 	{
-      sobre.IsVisible=true;
+      
     }
 
 }
