@@ -8,10 +8,58 @@
   <Grid>
     <Grid.RowDefinitions>
        <RowDefinition Height="*"/>
-       <RowDefinition Height="50"/>
-       <RowDefinition Height="50"/>
-       <RowDefinition Height="50"/>
-    </Grid.RowDefinitions>
+       <RowDefinition Height="55"/>
+       <RowDefinition Height="55"/>
+    </Grid.RowDefinitions> 
+
+    <Frame BackgroundColor="#990000"
+           CornerRadius="23"
+           Margin="5,10"
+           VerticalOptions="Fill"
+           Grid.Row="0">
+    <Label x:Name="pag2"
+           TextColor="White"
+           LineHeight="2"
+           HorizontalOptions="Center"
+           HorizontalTextAlignment="Center"
+           VerticalOptions="Center"
+           FontSize="18"
+           FontFamily="Fiendish"/>
+    </Frame>
+    <Button x:Name="buttonContinue"
+            Text="Continue"
+            BackgroundColor="#990000"
+            BorderWidth="2"
+            BorderColor="Black"
+            Margin="20,10"
+            TextColor="White"
+            FontSize="13"
+            HeightRequest="50"
+            CornerRadius="25"
+            HorizontalOptions="Fill"
+            VerticalOptions="End"
+            FontFamily="Fiendish"
+            Grid.Row="1"/>
+
+    <Button x:Name="buttonVoltar"
+            Text="Voltar"
+            BackgroundColor="#990000"
+            BorderWidth="2"
+            BorderColor="Black"
+            Margin="20,10"
+            TextColor="White"
+            FontSize="13"
+            HeightRequest="50"
+            CornerRadius="25"
+            HorizontalOptions="Fill"
+            VerticalOptions="End"
+            FontFamily="Fiendish"
+            Grid.Row="2"/>
+
+
+
+
+                       
   </Grid> 
  
    </ContentPage>        
