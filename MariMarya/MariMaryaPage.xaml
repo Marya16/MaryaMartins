@@ -41,8 +41,8 @@
             FontFamily="Fiendish"
             Grid.Row="1"/>
 
-    <Button x:Name="buttonVoltar"
-            Text="Voltar"
+    <Button Text="Voltar"
+            Clicked="ButtonVoltar"
             BackgroundColor="#990000"
             BorderWidth="2"
             BorderColor="Black"
@@ -57,9 +57,7 @@
             Grid.Row="2"/>
 
 
-
-
-                       
+                    
   </Grid> 
  
    </ContentPage>        
