@@ -13,7 +13,11 @@ public partial class MainPage : ContentPage
 	}
 	void Button_Clicked_1(object sender,EventArgs args)
 	{
-      
+      frameSobre.IsVisible= true;
     }
+	void Button_Voltar_2(object sender,EventArgs args)
+	{ 
+	  frameSobre.IsVisible= false;
+	}
 
 }

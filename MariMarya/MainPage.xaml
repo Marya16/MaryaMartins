@@ -27,7 +27,7 @@
                                 FontSize="13"
                                 FontAttributes="Bold"/>
 
-                        <Button Text="sobre"
+                        <Button Text="Sobre"
                                 Clicked="Button_Clicked_1"
                                 FontFamily="Fiendish"
                                 BorderColor="Black"
@@ -47,6 +47,35 @@
                         BackgroundColor="Black" 
                         HorizontalOptions="Fill"
                         VerticalOptions="Fill"/>
+
+                 <Frame x:Name="frameSobre"  
+                        IsVisible="True"
+                        Margin="10,20"
+                        CornerRadius="20"
+                        BackgroundColor="#056B1C" 
+                        HorizontalOptions="Fill"
+                        VerticalOptions="Fill">
+
+                <Button x:Name="frameVoltar"
+                        Text="Voltar"
+                        Clicked="Button_Voltar_2"
+                        BackgroundColor="#990000"
+                        BorderWidth="2"
+                        BorderColor="Black"
+                        Margin="20,10"
+                        TextColor="White"
+                        FontSize="13"
+                        HeightRequest="50"
+                        CornerRadius="25"
+                        HorizontalOptions="Fill"
+                        VerticalOptions="End"
+                        FontFamily="Fiendish"/>
+
+
+                </Frame>
+      
+
+
          </Grid>
 
 </ContentPage>

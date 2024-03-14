@@ -18,16 +18,16 @@
            VerticalOptions="Fill"
            Grid.Row="0">
     <Label x:Name="pag2"
+           Text="Ola jogador!! Esta preparado para sobreviver ao Survive the Apocalypse Z?"
            TextColor="White"
            LineHeight="2"
            HorizontalOptions="Center"
            HorizontalTextAlignment="Center"
            VerticalOptions="Center"
-           FontSize="18"
-           FontFamily="Fiendish"/>
+           FontSize="25"
+           FontFamily="Dead Font Walking"/>
     </Frame>
-    <Button x:Name="buttonContinue"
-            Text="Continue"
+    <Button Text="Continue"
             BackgroundColor="#990000"
             BorderWidth="2"
             BorderColor="Black"
@@ -55,9 +55,6 @@
             VerticalOptions="End"
             FontFamily="Fiendish"
             Grid.Row="2"/>
-
-
                     
   </Grid> 
- 
-   </ContentPage>        
+ </ContentPage>        
