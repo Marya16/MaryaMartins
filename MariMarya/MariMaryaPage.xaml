@@ -18,13 +18,13 @@
            VerticalOptions="Fill"
            Grid.Row="0">
     <Label x:Name="pag2"
-           Text="Ola jogador!! Esta preparado para sobreviver ao Survive the Apocalypse Z?"
+           Text="Ola jogador!! Esta preparado para sobreviver ao Survive the Apocalypse Z, um jogo onde voce descobrira sua capacidade de sobreviver ao Apocalypse Z, mas tenha muito cuidado nas suas escolhas pois uma errada lhe trara severas consequencias! Esta prerado? Se sim, aperte em continuar"
            TextColor="White"
            LineHeight="2"
            HorizontalOptions="Center"
            HorizontalTextAlignment="Center"
            VerticalOptions="Center"
-           FontSize="25"
+           FontSize="18"
            FontFamily="Dead Font Walking"/>
     </Frame>
     <Button Text="Continue"

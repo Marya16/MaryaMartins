@@ -21,7 +21,7 @@
                                 BorderWidth="1"
                                 HeightRequest="50"
                                 CornerRadius="25"
-                                BackgroundColor="#990000"
+                                BackgroundColor="#77990000"
                                 TextColor="#e6e6e6"
                                 Margin="0,0,0,10"
                                 FontSize="13"
@@ -34,7 +34,7 @@
                                 BorderWidth="1"
                                 HeightRequest="50"
                                 CornerRadius="25"
-                                BackgroundColor="#990000" 
+                                BackgroundColor="#77990000" 
                                 TextColor="#e6e6e6"
                                 FontSize="13" 
                                 FontAttributes="Bold"/> 
@@ -49,28 +49,42 @@
                         VerticalOptions="Fill"/>
 
                  <Frame x:Name="frameSobre"  
-                        IsVisible="True"
-                        Margin="10,20"
+                        IsVisible="false"
+                        Margin="10,10,10,10"
                         CornerRadius="20"
-                        BackgroundColor="#056B1C" 
+                        BackgroundColor="#990000" 
                         HorizontalOptions="Fill"
                         VerticalOptions="Fill">
 
-                <Button x:Name="frameVoltar"
-                        Text="Voltar"
-                        Clicked="Button_Voltar_2"
-                        BackgroundColor="#990000"
-                        BorderWidth="2"
-                        BorderColor="Black"
-                        Margin="20,10"
-                        TextColor="White"
-                        FontSize="13"
-                        HeightRequest="50"
-                        CornerRadius="25"
-                        HorizontalOptions="Fill"
-                        VerticalOptions="End"
-                        FontFamily="Fiendish"/>
+                        <Grid>
+                                <Grid.RowDefinitions>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="60"/>
+                                </Grid.RowDefinitions>
+                                <Label Text="Jogo criado por Marianna Santiago e Marya Martins no ano de 2024, no colegio Sesi da industria em Apucarana, com auxilio do professor Thiago Macedo"
+                                       TextColor="White"
+                                       FontFamily="Dead Font Walking"
+                                       FontSize="25"
+                                       HorizontalOptions="Center"
+                                       HorizontalTextAlignment="Center"
+                                       VerticalOptions="Center"
+                                        Grid.Row="0"/>
 
+                                <Button x:Name="frameVoltar"
+                                        Text="Voltar"
+                                        Clicked="Button_Voltar_2"
+                                        BackgroundColor="#A44339"
+                                        BorderWidth="2"
+                                        BorderColor="Black"
+                                        Margin="20,10"
+                                        TextColor="White"
+                                        FontSize="13"
+                                        HeightRequest="50"
+                                        CornerRadius="25"
+                                        HorizontalOptions="Fill"
+                                        FontFamily="Fiendish"
+                                        Grid.Row="1"/>
+                        </Grid>
 
                 </Frame>
       

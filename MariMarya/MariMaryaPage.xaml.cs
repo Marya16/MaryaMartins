@@ -12,7 +12,7 @@ public partial class MariMaryaPage : ContentPage
 
 	void ButtonVoltar(object sender, EventArgs args)
 	{
-		Application.Current.MainPage =new MainPage();
+		Application.Current.MainPage = new MainPage();
 	} 
 	
 
