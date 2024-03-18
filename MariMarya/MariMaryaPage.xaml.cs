@@ -15,5 +15,8 @@ public partial class MariMaryaPage : ContentPage
 		Application.Current.MainPage = new MainPage();
 	} 
 	
-
+    void ButtonContinue(object sender, EventArgs args)
+	{
+		Application.Current.MainPage = new MariMarya2Page();
+	}
 }

@@ -8,4 +8,14 @@ public partial class MariMarya2Page : ContentPage
 	{
 		InitializeComponent();
 	}
+
+	void VoltarButton(object sender, EventArgs args)
+	{
+		Application.Current.MainPage = new MariMaryaPage();
+	} 
+
+	void MARIAZINHA(object sender, EventArgs args)
+	{
+		Application.Current.MainPage = new MainPage();
+	} 
 }

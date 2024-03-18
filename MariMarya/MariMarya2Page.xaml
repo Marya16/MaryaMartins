@@ -3,4 +3,66 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MariMarya.MariMarya2Page"
              Shell.NavBarIsVisible="False">
-  </ContentPage>
+<Grid>
+    <Grid.RowDefinitions>
+       <RowDefinition Height="*"/>
+       <RowDefinition Height="65"/>
+       <RowDefinition Height="65"/>
+       <RowDefinition Height="65"/>
+    </Grid.RowDefinitions> 
+
+    <Frame BackgroundColor="#990000"
+               CornerRadius="23"
+               Margin="10,10"
+               VerticalOptions="Fill"
+               Grid.Row="0">
+            </Frame>
+   
+    <Button Text="MARIAZINHA"
+            BackgroundColor="#990000"
+            BorderWidth="2"
+            BorderColor="Black"
+            Margin="10,15"
+            TextColor="White"
+            FontSize="13"
+            HeightRequest="50"
+            CornerRadius="25"
+            HorizontalOptions="Fill"
+            VerticalOptions="End"
+            FontFamily="Fiendish"
+            Grid.Row="1"/>
+
+            <Button Text="Voltar"
+            Clicked="VoltarButton"
+            BackgroundColor="#990000"
+            BorderWidth="2"
+            BorderColor="Black"
+            Margin="10,15"
+            TextColor="White"
+            FontSize="13"
+            HeightRequest="50"
+            CornerRadius="25"
+            HorizontalOptions="Fill"
+            VerticalOptions="End"
+            FontFamily="Fiendish"
+            Grid.Row="2"/>
+
+            <Button Text="DEISE"
+            BackgroundColor="#990000"
+            BorderWidth="2"
+            BorderColor="Black"
+            Margin="10,15"
+            TextColor="White"
+            FontSize="13"
+            HeightRequest="50"
+            CornerRadius="25"
+            HorizontalOptions="Fill"
+            VerticalOptions="End"
+            FontFamily="Fiendish"
+            Grid.Row="3"/>
+</Grid>
+
+</ContentPage>
+
+
+  

@@ -28,6 +28,7 @@
            FontFamily="Dead Font Walking"/>
     </Frame>
     <Button Text="Continue"
+            Clicked="ButtonContinue"
             BackgroundColor="#990000"
             BorderWidth="2"
             BorderColor="Black"
