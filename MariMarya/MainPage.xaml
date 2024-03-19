@@ -73,7 +73,7 @@
                                 <Button x:Name="frameVoltar"
                                         Text="Voltar"
                                         Clicked="Button_Voltar_2"
-                                        BackgroundColor="#A44339"
+                                        BackgroundColor="#922B21 "
                                         BorderWidth="2"
                                         BorderColor="Black"
                                         Margin="20,10"
